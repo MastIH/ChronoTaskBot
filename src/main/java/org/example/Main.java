@@ -9,17 +9,14 @@ import org.telegram.telegrambots.updatesreceivers.DefaultBotSession;
 public class Main {
     public static void main(String[] args) {
         try {
-            // 1. Загрузка сохраненных задач из файла в оперативную память
             Storage.loadTasksFromFile();
 
-            // 2. Инициализация API, регистрация бота и запуск фоновых процессов
             TelegramBotsApi botsApi = new TelegramBotsApi(DefaultBotSession.class);
             ChronoTaskBot bot = new ChronoTaskBot();
 
             botsApi.registerBot(bot);
-            bot.startReminderScheduler(); // Запуск ежедневного планировщика дедлайнов
+            bot.startReminderScheduler();
 
-            // Вывод подтверждения успешного старта системы в консоль
             System.out.println("Бот успешно запущен.");
 
         } catch (TelegramApiException e) {

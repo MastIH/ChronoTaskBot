@@ -9,11 +9,9 @@ public class Task {
     private LocalDateTime deadline;
     private boolean isCompleted;
 
-    // Пустой конструктор без параметров (обязательное требование Jackson для десериализации данных из JSON)
     public Task() {
     }
 
-    // Конструктор инициализации новой задачи с базовым флагом незавершенности
     public Task(Long chatId) {
         this.chatId = chatId;
         this.isCompleted = false;
