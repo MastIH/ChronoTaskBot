@@ -26,6 +26,7 @@
 
 ### 1. Создание новой задачи с дедлайном
 <img width="663" height="1280" alt="1_create_task" src="https://github.com/user-attachments/assets/6b012b75-3768-4dc5-b3b4-3fe0b42569a7" />
+<img src="https://github.com/user-attachments/assets/6b012b75-3768-4dc5-b3b4-3fe0b42569a7" width="220" alt="1_create_task" />
 
 ### 2. Просмотр списка текущих задач и кнопка закрытия
 <img width="699" height="1280" alt="2_task_list" src="https://github.com/user-attachments/assets/6aea061f-cf43-47e4-9af9-3479c279c589" />
