@@ -17,13 +17,13 @@
 Вот как выглядит весь процесс работы с таск-менеджером в Телеграме:
 
 ### 1. Создание новой задачи с дедлайном
-![Создание задачи](screenshots/1_create_task.jpg)
+<img src="screenshots/1_create_task.jpg" width="250">
 
 ### 2. Просмотр списка текущих задач и кнопка закрытия
-![Список задач](screenshots/2_task_list.jpg)
+<img src="screenshots/2_task_list.jpg" width="250">
 
 ### 3. Панель статистики и учёт прогресса
-![Статистика до выполнения](screenshots/3_stats_before.jpg)
+<img src="screenshots/3_stats_before.jpg" width="250">
 
 ### 4. Успешное выполнение задачи (Прогресс 100%)
-![Статистика после выполнения](screenshots/4_stats_after.jpg)
+<img src="screenshots/4_stats_after.jpg" width="250">
